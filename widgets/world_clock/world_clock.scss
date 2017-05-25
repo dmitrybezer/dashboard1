@@ -1,8 +1,9 @@
 .widget.widget-world-clock {
   $dark-text: #333;
   $dark-background: grey;
-  font-size: 2em;
-  padding-top: 55px;
+  font-size: 1em;
+  padding-top: 25px;
+  vertical-align:top;
 
   > ul li {
     box-sizing: border-box;
@@ -49,12 +50,12 @@
     .placeholder {
       height: 30px;
       width: 2px;
-      background: $dark-background;
+      background: white;
     }
 
     .label {
       position: relative;
-      color: $dark-background;
+      color: white;
 
       .location {
         margin-left: -50%;
