@@ -12,13 +12,11 @@ console.log("Yeah! The dashboard has started!")
 
 Dashing.on 'ready', ->
   Dashing.widget_margins ||= [2, 2]
-  Dashing.widget_base_dimensions ||= [100, 120]
-  Dashing.numColumns ||= 4
-
-  contentWidth = (Dashing.widget_base_dimensions[0] * 3 + Dashing.widget_margins[0] * 2) * Dashing.numColumns + 100
+  Dashing.widget_base_dimensions ||= [420, 170]
+  Dashing.numColumns ||= 5
 
   Batman.setImmediate ->
-    $('.gridster').width(contentWidth)
+    $('.gridster').width("auto")
     $('.gridster ul:first').gridster
       widget_margins: Dashing.widget_margins
       widget_base_dimensions: Dashing.widget_base_dimensions

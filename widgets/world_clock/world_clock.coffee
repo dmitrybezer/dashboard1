@@ -1,12 +1,13 @@
 class Dashing.WorldClock extends Dashing.Widget
   # configuration
   locations: [
-    { zone: "Asia/Singapore", display_location: "SG"},
-    { zone: "Asia/Jakarta", display_location: "JK" },
-    { zone: "America/Los_Angeles", display_location: "SF" },
+    { zone: "Australia/Brisbane", display_location: "BNE"},
+    { zone: "Europe/Budapest", display_location: "BUD" },
+    { zone: "Asia/Calcutta", display_location: "DEH" },
     { zone: "America/New_York", display_location: "BOS"},
-    { zone: "Europe/London", display_location: "EDH" }
+    { zone: "America/Vancouver", display_location: "POR" }
   ]
+
 
   startClock: ->
     for location in @locations
@@ -34,7 +35,7 @@ class Dashing.WorldClock extends Dashing.Widget
     for h in [0..23]
       do (h) ->
         hours[h] = {}
-        hours[h].dark = h< 7 || h>= 19
+        hours[h].dark = h< 8 || h>= 19
         hours[h].name = if h == 12 then h else h%12
     @set('hours', hours)
 
