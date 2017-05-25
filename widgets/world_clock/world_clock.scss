@@ -1,9 +1,10 @@
 .widget.widget-world-clock {
   $dark-text: #333;
   $dark-background: grey;
-  font-size: 1em;
+
+  font-size: 1.3em;
   padding-top: 25px;
-  vertical-align:top;
+  vertical-align: top;
 
   > ul li {
     box-sizing: border-box;
