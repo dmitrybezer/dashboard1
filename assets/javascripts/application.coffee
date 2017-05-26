@@ -1,5 +1,6 @@
 #= require moment
 #= require moment-timezone-with-data
+#= require Chart.bundle
 
 # dashing.js is located in the dashing framework
 # It includes jquery & batman for you.

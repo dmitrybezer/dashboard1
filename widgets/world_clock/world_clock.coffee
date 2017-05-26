@@ -3,7 +3,7 @@ class Dashing.WorldClock extends Dashing.Widget
   locations: [
     { zone: "Australia/Brisbane", display_location: "BNE"},
     { zone: "Europe/Budapest", display_location: "BUD" },
-    { zone: "Asia/Calcutta", display_location: "DEH" },
+    { zone: "Asia/Calcutta", display_location: "DEL" },
     { zone: "America/New_York", display_location: "BOS"},
     { zone: "America/Vancouver", display_location: "POR" }
   ]
