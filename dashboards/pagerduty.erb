@@ -1,20 +1,12 @@
-<% content_for :title do %>1080p dashboard<% end %>
+
 
 <div class="gridster">
   <ul>
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="2">
-      <div data-id="welcome" data-view="Text" data-title="Present"></div>
+      <div data-id="welcome" data-view="Text" data-title="Hello"></div>
     </li>
 
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
-      <div data-id="ticket-list-data" data-view="OpsTicketList" data-title=""></div>
-    </li>
-
-    <li data-row="1" data-col="1" data-sizex="2" data-sizey="2">
-      <div data-id="ticket-chart-data" data-view ="BarChart" data-title="Trend" data-moreinfo=""></div>
-    </li>
-
-
+      
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="hotseat-name" data-view="Text" data-title="Primary"></div>
     </li>
@@ -28,10 +20,12 @@
     <li data-row="1" data-col="1" data-sizex="1" data-sizey="1">
       <div data-id="Notify-Ops-OnCall-acknowledged" data-view="Hotness" data-title="ACK'd" data-cool="0" data-warm="2"></div>
     </li>
+      
+<li data-row="1" data-col="1" data-sizex="5" data-sizey="1">
+  <div data-view="WorldClock" class="widget widget-world-clock"></div>
+</li>
+      
 
-
-    <li data-row="1" data-col="1" data-sizex="5" data-sizey="1">
-      <div data-view="WorldClock" class="widget widget-world-clock" style="background-color:#ff9618"></div>
-    </li>
+      
   </ul>
- </div>
+</div>
